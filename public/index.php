@@ -8,16 +8,16 @@
   </head>
   <body class="bg-gradient-to-r from-[#FBFBFB] via-[#D4F6FF] to-[#C6E7FF]">
     <header class="h-screen">
-      <h1 class="text-stone-900 m-5 font-bold">Belajar Tailwind CSS dasar</h1>
+      <h1 class="text-[#213555] m-5 font-bold">Belajar Tailwind CSS dasar</h1>
       <form action="">
         <div class="border-2 border-[#C6E7FF] m-5 p-3 w-80">
-          <label class="font-bold" for="">Nama: </label>
+          <label class="font-bold text-[#213555] " for="">Nama: </label>
           <input
             class="p-2 outline-none"
             type="text"
             placeholder="Masukkan nama anda"
           />
-          <label class="font-bold" for="">Gmail: </label>
+          <label class="font-bold text-[#213555] " for="">Gmail: </label>
           <input
             class="p-2 outline-none"
             type="email"
@@ -31,8 +31,8 @@
         </button>
       </form>
       <div>
-        <h3 class="ml-5 mt-1 text-2xl font-bold">Lorem, ipsum.</h3>
-        <p class="mx-5 my-2 p-2 border-1 border-[#C6E7FF]">
+        <h3 class="ml-5 mt-1 text-[#213555] text-2xl font-bold">Lorem, ipsum.</h3>
+        <p class="mx-5 my-2 p-2 text-[#213555] border-1 border-[#C6E7FF]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
           excepturi tempora assumenda sint. Accusantium itaque accusamus in
           sapiente sed veritatis?

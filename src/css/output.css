@@ -319,6 +319,9 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .text-\[\#213555\] {
+    color: #213555;
+  }
   .text-stone-900 {
     color: var(--color-stone-900);
   }
