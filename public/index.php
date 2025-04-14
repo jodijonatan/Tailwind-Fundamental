@@ -6,9 +6,9 @@
     <title>TailwindCSS Fundamental</title>
     <link href="/src/css/output.css" rel="stylesheet" />
   </head>
-  <body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+  <body class="bg-gradient-to-r from-cyan-300 via-cyan-500 to-cyan-600">
     <header class="h-screen">
-      <h1 class="text-cyan-400 m-5 font-bold">Belajar Tailwind CSS dasar</h1>
+      <h1 class="text-stone-900 m-5 font-bold">Belajar Tailwind CSS dasar</h1>
       <form action="">
         <div class="border-2 m-5 p-3 w-80">
           <label class="font-bold" for="">Nama: </label>
