@@ -25,7 +25,7 @@
           />
         </div>
         <button
-          class="bg-sky-500 mx-5 px-2 py-1 hover:bg-sky-700 rounded-[8px]"
+          class="bg-sky-500 mx-5 px-2 py-1 hover:bg-sky-700 hover:cursor-pointer rounded-[8px]"
         >
           Sign In
         </button>
