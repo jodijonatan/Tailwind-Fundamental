@@ -6,38 +6,17 @@
     <title>TailwindCSS Fundamental</title>
     <link href="/src/css/output.css" rel="stylesheet" />
   </head>
-  <body class="bg-gradient-to-r from-[#FBFBFB] via-[#D4F6FF] to-[#C6E7FF]">
-    <header class="h-screen">
-      <h1 class="text-[#213555] m-5 font-bold">Belajar Tailwind CSS dasar</h1>
-      <form action="">
-        <div class="border-2 border-[#C6E7FF] m-5 p-3 w-80">
-          <label class="font-bold text-[#213555] " for="">Nama: </label>
-          <input
-            class="p-2 outline-none"
-            type="text"
-            placeholder="Masukkan nama anda"
-          />
-          <label class="font-bold text-[#213555] " for="">Gmail: </label>
-          <input
-            class="p-2 outline-none"
-            type="email"
-            placeholder="Masukkan gmail anda"
-          />
-        </div>
-        <button
-          class="bg-[#9FB3DF] mx-5 px-2 py-1 hover:bg-sky-700 hover:cursor-pointer rounded-[8px]"
-        >
-          Sign In
-        </button>
-      </form>
-      <div>
-        <h3 class="ml-5 mt-1 text-[#213555] text-2xl font-bold">Lorem, ipsum.</h3>
-        <p class="mx-5 my-2 p-2 text-[#213555] border-1 border-[#C6E7FF]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          excepturi tempora assumenda sint. Accusantium itaque accusamus in
-          sapiente sed veritatis?
-        </p>
-      </div>
-    </header>
-  </body>
+  <body class="bg-linear-to-l from-[#FBFBFB] via-[#D4F6FF] to-[#C6E7FF]">
+  <nav class="flex justify-between items-center p-4 bg-[#89A8B2] text-stone-800">
+    <div class="font-bold mx-15">JO DEV</div>
+    <ul class="flex space-x-6 mx-15">
+      <li><a href="/" class="hover:underline">Home</a></li>
+      <li><a href="/public/about.php" class="hover:underline">About</a></li>
+      <li><a href="/public/contact.php" class="hover:underline">Contact</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>HOME</h1>
+  </header>
+</body>
 </html>
