@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link href="/src/css/output.css" rel="stylesheet" />
 </head>
 <body class="bg-linear-to-r from-[#9ACBD0] to-[#48A6A7]">
