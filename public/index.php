@@ -15,8 +15,15 @@
       <li><a href="/public/contact.php" class="hover:underline">Contact</a></li>
     </ul>
   </nav>
-  <header class="grid grid-flow-col grid-rows-3 gap-4">
-    <h1 class="row-span-2">Salah satu siswan jurusan Rekayasa Perangkat Lunak dari SMK Telkom 1 Medan</h1>
+  <header class="h-[80%]">
+    <div class="flex justify-between items-center mx-25 my-[5%] ">
+    <div>
+      <h1 class="text-[19px]">Salah satu siswan jurusan <strong>Rekayasa Perangkat Lunak</      strong><br> dari <strong>SMK Telkom 1 Medan</strong>. Aku  <strong>Jodi Jonatan</strong></h1>
+    </div>
+    <div>
+      <img src="./assets/person.png" alt="ini image">
+    </div>
+    </div>
   </header>
 </body>
 </html>
