@@ -19,6 +19,7 @@
     <div class="flex justify-between items-center mx-25 my-[5%] ">
     <div>
       <h1 class="text-[19px]">Salah satu siswan jurusan <strong>Rekayasa Perangkat Lunak</      strong><br> dari <strong>SMK Telkom 1 Medan</strong>. Aku  <strong>Jodi Jonatan</strong></h1>
+      <button class="bg-[#48A6A7] py-2 px-3 rounded-[17px] mt-2 hover:bg-[#336D82] hover:cursor-pointer shadow-md"><a href="about.php">About</a></button>
     </div>
     <div>
       <img src="./assets/person.png" alt="ini image">
