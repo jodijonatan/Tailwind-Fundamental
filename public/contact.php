@@ -25,21 +25,21 @@
     </div>
     </div>
     <div class="flex justify-center items-center">
-      <d class="border-[2px] bg-blue-300 p-8">
+      <form action="https://formspree.io/f/xrbpvbqo" method="POST" class="border-[2px] bg-blue-300 p-8">
         <div class="bg-amber-50 p-2 rounded-2xl">
           <label class="font-bold" for="">Name: </label>
           <input class="outline-none" placeholder="Masukin nama kamu" type="text">  
         </div>
         <div class="bg-amber-50 p-2 mt-3 rounded-2xl">
           <label class="font-bold" for="">Email: </label>
-          <input class="outline-none" placeholder="Masukin email kamu" type="email">
+          <input class="outline-none" placeholder="Masukin email kamu" type="email" name="email">
         </div>
         <div class="pt-[10px]">
           <label class="font-bold pl-2" for="">Pesan: </label><br>
-          <textarea rows="6" cols="40" class="outline-none bg-amber-50 p-2 mt-1 rounded-2xl" placeholder="Masukin pesan kamu"></textarea>
+          <textarea name="message" rows="6" cols="40" class="outline-none bg-amber-50 p-2 mt-1 rounded-2xl" placeholder="Masukin pesan kamu"></textarea>
         </div>
         <div>
-          <button onclick="alert('Makasii, pesan kamu udah terkirim')" class="bg-[#48A6A7] py-2 px-3 rounded-[17px] mt-2 hover:bg-[#336D82] hover:cursor-pointer shadow-md">Kirim</button>
+          <button type="submit" onclick="alert('Makasii, pesan kamu udah terkirim')" class="bg-[#48A6A7] py-2 px-3 rounded-[17px] mt-2 hover:bg-[#336D82] hover:cursor-pointer shadow-md">Kirim</button>
         </div>
       </form>
     </div>
