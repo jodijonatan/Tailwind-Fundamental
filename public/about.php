@@ -48,6 +48,9 @@
         <img class="w-[450px]" src="./assets/language.png" alt="">
       </div>
       </div>
+      <div class="flex justify-center">
+        <button class="bg-[#48A6A7] py-2 px-3 rounded-[17px] mt-2 hover:bg-[#336D82] hover:cursor-pointer shadow-md"><a href="contact.php">Contact Me</a></button>
+      </div>
   </main>
 </body>
 </html>

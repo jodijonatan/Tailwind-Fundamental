@@ -17,12 +17,32 @@
   </nav>
   <header>
     <h1 class="flex text-2xl font-bold justify-center mt-10">Contact Me</h1>
-    <div class="flex w-200 items-center justify-center border-2">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum impedit culpa mollitia beatae. Incidunt nam aliquid aliquam, eum distinctio amet mollitia, ea, rerum ratione itaque ipsa minus iste consequuntur accusamus.
-    </p>
+    <div class="flex justify-center">
+      <div class="flex w-[700px] h-[100px] items-center justify-center m-5">
+      <p class="text-center">
+        Saya sangat senang untuk berkolaborasi dengan sesama programmer, atau hanya sekedar ngobrol santai dengan semua orang. Saya akan sangat senang berbagi pengalaman dengan anda, silahkan isi form di bawah ini untuk kolaborasi atau hanya sekedar ngobrol santai
+      </p>
+    </div>
+    </div>
+    <div class="flex justify-center items-center">
+      <d class="border-[2px] bg-blue-300 p-8">
+        <div class="bg-amber-50 p-2 rounded-2xl">
+          <label class="font-bold" for="">Name: </label>
+          <input class="outline-none" placeholder="Masukin nama kamu" type="text">  
+        </div>
+        <div class="bg-amber-50 p-2 mt-3 rounded-2xl">
+          <label class="font-bold" for="">Email: </label>
+          <input class="outline-none" placeholder="Masukin email kamu" type="email">
+        </div>
+        <div class="pt-[10px]">
+          <label class="font-bold pl-2" for="">Pesan: </label><br>
+          <textarea rows="6" cols="40" class="outline-none bg-amber-50 p-2 mt-1 rounded-2xl" placeholder="Masukin pesan kamu"></textarea>
+        </div>
+        <div>
+          <button onclick="alert('Makasii, pesan kamu udah terkirim')" class="bg-[#48A6A7] py-2 px-3 rounded-[17px] mt-2 hover:bg-[#336D82] hover:cursor-pointer shadow-md">Kirim</button>
+        </div>
+      </form>
     </div>
   </header>
 </>
 </html>
-
-//3 4 5 6 7 9 10 11 12 14 16 17 18 19 20 21 22 23 24 25 26 27 28 31 32 33 34
