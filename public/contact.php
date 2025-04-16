@@ -7,7 +7,7 @@
     <link href="/src/css/output.css" rel="stylesheet" />
 </head>
 <body class="bg-linear-to-r from-[#9ACBD0] to-[#48A6A7]">
-<nav class="flex justify-between items-center p-4 bg-[#89A8B2] text-stone-800">
+<nav class="flex justify-between items-center p-4 bg-[#89A8B2] text-stone-800 fixed top-0 w-screen">
     <div class="font-bold mx-15">JO DEV</div>
     <ul class="flex space-x-6 mx-15">
       <li><a href="/public/index.php" class="hover:underline">Home</a></li>
@@ -16,7 +16,7 @@
     </ul>
   </nav>
   <header>
-    <h1 class="flex text-2xl font-bold justify-center mt-10">Contact Me</h1>
+    <h1 class="flex text-2xl font-bold justify-center mt-30">Contact Me</h1>
     <div class="flex justify-center">
       <div class="flex w-[700px] h-[100px] items-center justify-center m-5">
       <p class="text-center">
