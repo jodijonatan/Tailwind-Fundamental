@@ -16,7 +16,13 @@
     </ul>
   </nav>
   <header>
-    <h1>CONTACT</h1>
+    <h1 class="flex text-2xl font-bold justify-center mt-10">Contact Me</h1>
+    <div class="flex w-200 items-center justify-center border-2">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum impedit culpa mollitia beatae. Incidunt nam aliquid aliquam, eum distinctio amet mollitia, ea, rerum ratione itaque ipsa minus iste consequuntur accusamus.
+    </p>
+    </div>
   </header>
 </>
 </html>
+
+//3 4 5 6 7 9 10 11 12 14 16 17 18 19 20 21 22 23 24 25 26 27 28 31 32 33 34

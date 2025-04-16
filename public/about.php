@@ -7,7 +7,7 @@
     <link href="/src/css/output.css" rel="stylesheet" />
 </head>
 <body class="bg-linear-to-r from-[#9ACBD0] to-[#48A6A7]">
-<nav class="flex justify-between items-center p-4 bg-[#89A8B2] text-stone-800 shadow">
+<nav class="flex justify-between items-center p-4 bg-[#89A8B2] text-stone-800 shadow fixed top-0 w-screen">
     <div class="font-bold mx-15">JO DEV</div>
     <ul class="flex space-x-6 mx-15">
       <li><a href="/public/index.php" class="hover:underline">Home</a></li>
@@ -16,7 +16,7 @@
     </ul>
   </nav>
   <header class="h-[500px]">
-    <div class="flex justify-between items-center mx-25 mt-18">
+    <div class="flex justify-between items-center mx-25 my-55">
       <div>
         <h1 class="text-2xl font-bold">I'm Jodi Jonatan</h1>
         <p>Junior web developer dengan pengalaman 1 tahun yang aktif membuat<br> dan mengembangkan tampilan website yang keren, responsif dan interaktif</p>
@@ -27,7 +27,7 @@
     </div>
   </header>
   <main class="h-screen">
-      <h1 class="text-3xl font-semibold flex justify-center pt-4">Skill</h1>
+      <h1 class="text-3xl font-semibold flex justify-center pt-35">Skill</h1>
       <div class="flex items-center justify-between mx-25 mt-[80px]">
       <div class="w-100">
         <ul class="flex flex-wrap space-x-8 justify-center">
