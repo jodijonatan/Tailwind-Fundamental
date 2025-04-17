@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link href="/src/css/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body class="bg-linear-to-r from-[#9ACBD0] to-[#48A6A7]">
 <nav class="flex justify-between items-center p-4 bg-[#89A8B2] text-stone-800 fixed top-0 w-screen">
@@ -50,8 +51,8 @@
     </div>
     <div class="flex justify-center mt-5">
       <ul class="text-[20px] bg-blue-300 p-8 border-[2px] shadow-lg shadow-cyan-200/50">
-        <li><a href="https://instagram.com/cold.joo">Instagram</a></li>
-        <li class="py-2"><a href="https://github.com/jodijonatan">Github</a></li>
+        <li><a href="https://instagram.com/cold.joo"><i class="fab fa-instagram mr-3"></i>Instagram</a></li>
+        <li><a href="https://github.com/jodijonatan"><i class="fab fa-github mr-3"></i>Github</a></li>
       </ul>
     </div>
   </main>
