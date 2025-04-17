@@ -25,7 +25,7 @@
     </div>
     </div>
     <div class="flex justify-center items-center">
-      <form action="https://formspree.io/f/xrbpvbqo" method="POST" class="border-[2px] bg-blue-300 p-8">
+      <form action="https://formspree.io/f/xrbpvbqo" method="POST" class="border-[2px] bg-blue-300 p-8 shadow-lg shadow-cyan-200/50">
         <div class="bg-amber-50 p-2 rounded-2xl">
           <label class="font-bold" for="">Name: </label>
           <input class="outline-none" placeholder="Masukin nama kamu" type="text">  
@@ -44,5 +44,16 @@
       </form>
     </div>
   </header>
+  <main class="h-screen">
+    <div class="flex justify-center">
+      <h1 class="mt-25 text-2xl font-medium">Selain itu, kamu juga bisa contact aku lewat beberapa media sosial ini</h1>
+    </div>
+    <div class="flex justify-center mt-5">
+      <ul class="text-[20px] bg-blue-300 p-8 border-[2px] shadow-lg shadow-cyan-200/50">
+        <li><a href="https://instagram.com/cold.joo">Instagram</a></li>
+        <li class="py-2"><a href="https://github.com/jodijonatan">Github</a></li>
+      </ul>
+    </div>
+  </main>
 </>
 </html>
