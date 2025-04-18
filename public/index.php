@@ -8,7 +8,7 @@
   </head>
   <body class="bg-linear-to-r from-[#9ACBD0] to-[#48A6A7]">
   <nav class="flex justify-between items-center p-4 bg-[#89A8B2] text-stone-800 shadow-md">
-    <div class="font-bold mx-15">JO DEV</div>
+    <div class="font-bold mx-15 bg-gradient-to-r from-[#077A7D] to-[#03A791] bg-clip-text text-transparent">JO DEV</div>
     <ul class="flex space-x-6 mx-15">
       <li><a href="/public/index.php" class="hover:underline">Home</a></li>
       <li><a href="/public/about.php" class="hover:underline">About</a></li>
