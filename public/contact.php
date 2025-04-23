@@ -37,6 +37,11 @@
             <input class="outline-none" placeholder="Masukin email kamu" type="email" name="email">
           </label>
         </div>
+        <div class="bg-amber-50 p-2 mt-3 rounded-2xl">
+          <label class="font-bold" for="password">Password:
+            <input type="password" id="password" class="outline-none" placeholder="Masukkan password kamu">
+          </label>
+        </div>
         <div class="pt-[10px]">
           <label for="" class="font-bold pl-2">Pesan: <br> 
             <textarea name="message" rows="6" cols="40" class="outline-none bg-amber-50 p-2 mt-1 rounded-2xl" placeholder="Masukin pesan kamu"></textarea>
@@ -59,5 +64,5 @@
         </ul>
       </div>
   </main>
-</>
+</body>
 </html>
