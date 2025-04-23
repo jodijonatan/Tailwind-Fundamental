@@ -49,7 +49,7 @@
       </div>
       </div>
       <div class="flex justify-center">
-        <button class="bg-[#48A6A7] py-2 px-3 rounded-[17px] mt-2 hover:bg-[#336D82] hover:cursor-pointer shadow-md"><a href="contact.php">Contact Me</a></button>
+        <button class="bg-[#48A6A7] py-2 px-3 rounded-[17px] my-20 hover:bg-[#336D82] hover:cursor-pointer shadow-md"><a href="contact.php">Contact Me</a></button>
       </div>
   </main>
 </body>

@@ -25,7 +25,7 @@
         </label>
         <label for="username">
           <span class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5">Username</span>
-          <input type="url" id="username" placeholder="Masukkan username anda..." class="px-3 py-2 w-full rounded border-slate-500 shadow text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1
+          <input type="text" id="username" placeholder="Masukkan username anda..." class="px-3 py-2 w-full rounded border-slate-500 shadow text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1
           focus:ring-sky-700 invalid:text-pink-700 invalid:focus:ring-pink-700 peer">
           <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Username tidak valid</p>
         </label>
