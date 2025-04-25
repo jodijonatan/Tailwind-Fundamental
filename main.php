@@ -117,8 +117,10 @@
     <div class="w-40 h-40 bg-sky-500 mx-auto rounded-md shadow-md my-20 cursor-pointer hover:scale-125 hover:rotate-45 hover:translate-x-16 hover:bg-pink-500 transition"></div>
     <!-- agar lebih baik jika cursor mungkin keluar dari box, kita bisa tambahkan group -->
     <div class="w-40 h-40 mx-auto my-20 group">
-      <div class="w-full h-full bg-sky-500 rounded-md shadow-md group-hover:cursor-pointer group-hover:scale-125 group-hover:rotate-45 group-hover:translate-x-16 group-hover:bg-pink-500 transition"></div>
+      <div class="w-full h-full bg-sky-500 rounded-md shadow-md group-hover:cursor-pointer group-hover:scale-125 group-hover:rotate-45 group-hover:bg-pink-500 origin-bottom-right transition"></div>
     </div>
+    <!-- ANIMATION -->
+     <div class="w-40 h-40 bg-sky-500 mx-auto rounded-md shadow-md my-20 cursor-pointer animate-bounce"></div>
     <hr class="my-10">
   </body>
 </html>
