@@ -122,5 +122,12 @@
     <!-- ANIMATION -->
      <div class="w-40 h-40 bg-sky-500 mx-auto rounded-md shadow-md my-20 cursor-pointer animate-bounce"></div>
     <hr class="my-10">
+    <div class="container mx-auto">
+      <div class="border rounded-lg shadow-lg p-10">
+        <img src="public/assets/person.png" alt="person" class="w-[100px] float-left border mr-3">
+        <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat at minima sapiente voluptatibus aliquam! Quo asperiores sint nam mollitia tempore? Incidunt neque ea, officia officiis veniam reiciendis aperiam recusandae consequatur accusamus minus maiores tenetur ullam nam. Quisquam minus ipsa in et quidem quaerat sit corporis non delectus dolorem facilis assumenda, beatae asperiores totam vel repellendus eveniet est at! Excepturi harum accusantium, maxime expedita voluptatum, laborum tenetur, aperiam deleniti molestiae facilis atque rem? Aliquam optio soluta architecto voluptatum temporibus aut odit, asperiores enim tempora, quibusdam ab dicta, reiciendis facere voluptatibus? Dignissimos, natus. Optio, voluptatum cum tenetur quis eos maxime nulla unde.</p>
+      </div>
+    </div>
+    <hr class="my-10">
   </body>
 </html>
