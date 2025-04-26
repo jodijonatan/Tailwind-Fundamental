@@ -123,10 +123,32 @@
      <div class="w-40 h-40 bg-sky-500 mx-auto rounded-md shadow-md my-20 cursor-pointer animate-bounce"></div>
     <hr class="my-10">
     <div class="container mx-auto">
-      <div class="border rounded-lg shadow-lg p-10">
-        <img src="public/assets/person.png" alt="person" class="w-[100px] float-left border mr-3">
+      <div class="border rounded-lg shadow-md p-10 bg-slate-200">
+        <img src="public/assets/person.png" alt="person" class="w-[100px] float-left shadow-md shadow-slate-400 mr-3 bg-amber-400">
         <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat at minima sapiente voluptatibus aliquam! Quo asperiores sint nam mollitia tempore? Incidunt neque ea, officia officiis veniam reiciendis aperiam recusandae consequatur accusamus minus maiores tenetur ullam nam. Quisquam minus ipsa in et quidem quaerat sit corporis non delectus dolorem facilis assumenda, beatae asperiores totam vel repellendus eveniet est at! Excepturi harum accusantium, maxime expedita voluptatum, laborum tenetur, aperiam deleniti molestiae facilis atque rem? Aliquam optio soluta architecto voluptatum temporibus aut odit, asperiores enim tempora, quibusdam ab dicta, reiciendis facere voluptatibus? Dignissimos, natus. Optio, voluptatum cum tenetur quis eos maxime nulla unde.</p>
       </div>
+    </div>
+    <hr class="my-10">
+    <div class="container mx-auto columns-xs p-10 bg-slate-200 border border-slate-300 rounded-2xl shadow-md">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
+    </div>
+    <hr class="my-10">
+    <div class="text-center">
+      <h1 class="inline-block bg-gradient-to-r from-indigo-500 via-sky-500 to-pink-500 bg-clip-text text-transparent mx-auto font-black">JODI JONATAN</h1>
     </div>
     <hr class="my-10">
   </body>
