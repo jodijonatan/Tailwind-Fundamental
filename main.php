@@ -158,7 +158,7 @@
     </div>
     <hr class="my-10">
     <div class="relative size-32 border mx-auto border-slate-600">
-      <div class="absolute inset-y-0 left-0 h-5 bg-sky-500"></div>
+      <div class="absolute inset-y-0 left-0 w-8 bg-sky-500"></div>
     </div>
     <hr class="my-10">
   </body>
