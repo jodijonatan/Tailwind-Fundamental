@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -129,11 +129,11 @@
       </div>
     </div>
     <hr class="my-10">
-    <div class="container mx-auto columns-xs p-10 bg-slate-200 border border-slate-300 rounded-2xl shadow-md">
+    <div class="container mx-auto columns-xs gap-3 p-10 bg-slate-200 border border-slate-300 rounded-2xl shadow-md">
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
+      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md h-48 w-96 object-cover object-bottom-left">
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
@@ -148,8 +148,15 @@
     </div>
     <hr class="my-10">
     <div class="text-center">
-      <h1 class="inline-block bg-gradient-to-r from-indigo-500 via-sky-500 to-pink-500 bg-clip-text text-transparent mx-auto font-black">JODI JONATAN</h1>
+      <h1 class="inline-block bg-gradient-to-r from-indigo-500 via-sky-500 to-pink-500 bg-clip-text text-transparent mx-auto font-black">JODI JONATAN</h1><br>
+      <span class="box-decoration-clone bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white">
+        Hello<br>World
+      </span>
     </div>
     <hr class="my-10">
+    <div class="sticky top-0 text-center">
+      <div class="w-40 h-40 bg-sky-500 mx-auto inline font-black">Hello, World!</div>
+    </div>
+    <hr class="my-[1000px]">
   </body>
 </html>
