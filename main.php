@@ -153,10 +153,13 @@
         Hello<br>World
       </span>
     </div>
-    <hr class="my-10">
-    <div class="sticky top-0 text-center">
+    <div class="sticky top-0 text-center mt-5">
       <div class="w-40 h-40 bg-sky-500 mx-auto inline font-black">Hello, World!</div>
     </div>
-    <hr class="my-[1000px]">
+    <hr class="my-10">
+    <div class="relative size-32 border mx-auto border-slate-600">
+      <div class="absolute inset-y-0 left-0 h-5 bg-sky-500"></div>
+    </div>
+    <hr class="my-10">
   </body>
 </html>
