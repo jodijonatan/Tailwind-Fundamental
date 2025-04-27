@@ -153,12 +153,14 @@
         Hello<br>World
       </span>
     </div>
-    <div class="sticky top-0 text-center mt-5">
+    <div class="sticky top-0 text-center mt-5 z-[999999]">
       <div class="w-40 h-40 bg-sky-500 mx-auto inline font-black">Hello, World!</div>
     </div>
     <hr class="my-10">
-    <div class="relative size-32 border mx-auto border-slate-600">
-      <div class="absolute inset-y-0 left-0 w-8 bg-sky-500"></div>
+    <!-- Ini adalah contoh position dengan mengkombinasikan parent relative dengan child absolute -->
+    <div class="relative size-32 border mx-auto border-slate-600 bg-pink-500 text-center pt-12">
+      <div class="absolute left-1/2 -top-3 size-6 bg-sky-500 rounded-full flex items-center justify-center -rotate-90 transform -translate-x-1/2"><a href="#">➜</a></div>
+      <p class="font-black inline bg-gradient-to-r from-indigo-500 via-blue-500 to-sky-500 bg-clip-text text-transparent box-decoration-clone">COLD.JOO<br>Jodi Jonatan</p>
     </div>
     <hr class="my-10">
   </body>
