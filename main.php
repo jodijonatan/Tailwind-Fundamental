@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,7 +35,7 @@
         maiores, beatae a nostrum cum sit consequatur accusamus repudiandae!
       </p>
     </div>
-    <hr class="my-10" />
+    <hr class="my-10 dark:text-slate-500"/>
     <div
       class="p-5 max-w-lg bg-slate-100 rounded-2xl shadow-md border-slate-200 m-auto group hover:bg-sky-800 dark:bg-slate-500 dark:hover:bg-slate-600"
     >
@@ -53,22 +53,19 @@
         molestias excepturi?
       </p>
     </div>
-    <hr class="my-10" />
+    <hr class="my-10 dark:text-slate-500"/>
     <div
-      class="p-5 max-w-lg bg-slate-100 rounded-2xl shadow-md border-slate-200 mx-auto dark:bg-slate-600"
-    >
+      class="p-5 max-w-lg bg-slate-100 rounded-2xl shadow-md border-slate-200 mx-auto dark:bg-slate-600">
       <form action="">
         <label for="email">
           <span
             class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5"
-            >Email</span
-          >
+            >Email</span>
           <input
             type="email"
             id="email"
             placeholder="Masukkan email anda..."
-            class="px-3 py-2 w-full rounded border-slate-500 shadow text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-700 invalid:text-pink-700 invalid:focus:ring-pink-700 peer"
-          />
+            class="px-3 py-2 w-full rounded border-slate-500 shadow text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-700 invalid:text-pink-700 invalid:focus:ring-pink-700 peer"/>
           <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">
             Email tidak valid
           </p>
@@ -76,14 +73,12 @@
         <label for="username">
           <span
             class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5"
-            >Username</span
-          >
+            >Username</span>
           <input
             type="text"
             id="username"
             placeholder="Masukkan username anda..."
-            class="px-3 py-2 w-full rounded border-slate-500 shadow text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-700 invalid:text-pink-700 invalid:focus:ring-pink-700 peer"
-          />
+            class="px-3 py-2 w-full rounded border-slate-500 shadow text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-700 invalid:text-pink-700 invalid:focus:ring-pink-700 peer"/>
           <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">
             Username tidak valid
           </p>
@@ -91,21 +86,19 @@
         <label for="password">
           <span
             class="block font-semibold mb-1 after:content-['*'] after:text-pink-700 after:ml-0.5"
-            >Password</span
-          >
+            >Password</span>
           <input
             type="password"
             id="password"
             placeholder="Masukkan password anda..."
-            class="px-3 py-2 w-full rounded border-slate-500 shadow text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-700 invalid:text-pink-700 invalid:focus:ring-pink-700 peer"
-          />
+            class="px-3 py-2 w-full rounded border-slate-500 shadow text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-700 invalid:text-pink-700 invalid:focus:ring-pink-700 peer"/>
           <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">
             Password tidak valid
           </p>
         </label>
       </form>
     </div>
-    <hr class="my-10" />
+    <hr class="my-10 dark:text-slate-500"/>
     <div>
       <button
         class="bg-sky-400 py-2 px-5 rounded-full block mx-auto text-white font-semibold hover:bg-sky-600 hover:cursor-pointer active:bg-sky-900 focus:outline-2 focus:outline-stone-950 dark:bg-slate-700 dark:hover:bg-slate-800 dark:active:bg-slate-900"
@@ -113,7 +106,7 @@
         Slebew
       </button>
     </div>
-    <hr class="my-10" />
+    <hr class="my-10 dark:text-slate-500"/>
     <div class="w-40 h-40 bg-sky-500 mx-auto rounded-md shadow-md my-20 cursor-pointer hover:scale-125 hover:rotate-45 hover:translate-x-16 hover:bg-pink-500 transition"></div>
     <!-- agar lebih baik jika cursor mungkin keluar dari box, kita bisa tambahkan group -->
     <div class="w-40 h-40 mx-auto my-20 group">
@@ -121,15 +114,15 @@
     </div>
     <!-- ANIMATION -->
      <div class="w-40 h-40 bg-sky-500 mx-auto rounded-md shadow-md my-20 cursor-pointer animate-bounce"></div>
-    <hr class="my-10">
+    <hr class="my-10 dark:text-slate-500">
     <div class="container mx-auto">
-      <div class="border rounded-lg shadow-md p-10 bg-slate-200">
+      <div class="border rounded-lg shadow-md p-10 bg-slate-200 dark:bg-slate-600">
         <img src="public/assets/person.png" alt="person" class="w-[100px] float-left shadow-md shadow-slate-400 mr-3 bg-amber-400">
         <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat at minima sapiente voluptatibus aliquam! Quo asperiores sint nam mollitia tempore? Incidunt neque ea, officia officiis veniam reiciendis aperiam recusandae consequatur accusamus minus maiores tenetur ullam nam. Quisquam minus ipsa in et quidem quaerat sit corporis non delectus dolorem facilis assumenda, beatae asperiores totam vel repellendus eveniet est at! Excepturi harum accusantium, maxime expedita voluptatum, laborum tenetur, aperiam deleniti molestiae facilis atque rem? Aliquam optio soluta architecto voluptatum temporibus aut odit, asperiores enim tempora, quibusdam ab dicta, reiciendis facere voluptatibus? Dignissimos, natus. Optio, voluptatum cum tenetur quis eos maxime nulla unde.</p>
       </div>
     </div>
-    <hr class="my-10">
-    <div class="container mx-auto columns-xs gap-3 p-10 bg-slate-200 border border-slate-300 rounded-2xl shadow-md">
+    <hr class="my-10 dark:text-slate-500">
+    <div class="container mx-auto columns-xs gap-3 p-10 bg-slate-200 border border-slate-300 rounded-2xl shadow-md dark:bg-slate-600">
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
@@ -146,7 +139,7 @@
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
       <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
     </div>
-    <hr class="my-10">
+    <hr class="my-10 dark:text-slate-500">
     <div class="text-center">
       <h1 class="inline-block bg-gradient-to-r from-indigo-500 via-sky-500 to-pink-500 bg-clip-text text-transparent mx-auto font-black">JODI JONATAN</h1><br>
       <span class="box-decoration-clone bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white">
@@ -156,12 +149,12 @@
     <div class="sticky top-0 text-center mt-5 z-[999999]">
       <div class="w-40 h-40 bg-sky-500 mx-auto inline font-black">Hello, World!</div>
     </div>
-    <hr class="my-10">
+    <hr class="my-10 dark:text-slate-500">
     <!-- Ini adalah contoh position dengan mengkombinasikan parent relative dengan child absolute -->
-    <div class="relative size-32 border mx-auto border-slate-600 bg-pink-500 text-center pt-12">
-      <div class="absolute left-1/2 -top-3 size-6 bg-sky-500 rounded-full flex items-center justify-center -rotate-90 transform -translate-x-1/2"><a href="#">➜</a></div>
-      <p class="font-black inline bg-gradient-to-r from-indigo-500 via-blue-500 to-sky-500 bg-clip-text text-transparent box-decoration-clone">COLD.JOO<br>Jodi Jonatan</p>
+    <div class="relative size-32 border mx-auto border-slate-600 bg-pink-500 text-center pt-12 group hover:bg-sky-500">
+      <div class="absolute left-1/2 -top-3 size-6 bg-sky-500 rounded-full flex items-center justify-center -rotate-90 transform -translate-x-1/2 hover:bg-sky-700"><a href="#">➜</a></div>
+      <p class="font-black inline bg-gradient-to-r from-indigo-500 via-blue-500 to-sky-500 bg-clip-text text-transparent box-decoration-clone group-hover:text-pink-500">COLD.JOO<br>Jodi Jonatan</p>
     </div>
-    <hr class="my-10">
+    <hr class="my-10 dark:text-slate-500">
   </body>
 </html>
