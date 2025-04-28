@@ -8,8 +8,7 @@
   </head>
   <body class="bg-white dark:bg-black">
     <div
-      class="overflow-scroll bg-local h-96 bg-[url('https://images.unsplash.com/photo-1593642634367-d91a135587b5')] w-[400px] mx-auto mt-5"
-    >
+      class="overflow-scroll bg-local h-96 bg-[url('https://images.unsplash.com/photo-1593642634367-d91a135587b5')] w-[400px] mx-auto mt-5">
       <p class="text-2xl">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque sint eum
         magnam ipsa. Nihil inventore dolorem amet repellendus fuga eveniet
@@ -37,16 +36,13 @@
     </div>
     <hr class="my-10 dark:text-slate-500"/>
     <div
-      class="p-5 max-w-lg bg-slate-100 rounded-2xl shadow-md border-slate-200 m-auto group hover:bg-sky-800 dark:bg-slate-500 dark:hover:bg-slate-600"
-    >
+      class="p-5 max-w-lg bg-slate-100 rounded-2xl shadow-md border-slate-200 m-auto group hover:bg-sky-800 dark:bg-slate-500 dark:hover:bg-slate-600">
       <h1
-        class="text-black pt-5 text-[20px] font-semibold group-hover:text-white selection:bg-amber-300 selection:text-black dark:group-hover:text-slate-400"
-      >
+        class="text-black pt-5 text-[20px] font-semibold group-hover:text-white selection:bg-amber-300 selection:text-black dark:group-hover:text-slate-400">
         My Card
       </h1>
       <p
-        class="first-line:text-cyan-500 first-letter:text-5xl first-letter:float-left first-letter:mr-1 group-hover:text-white selection:bg-amber-300 selection:text-black dark:group-hover:text-slate-400"
-      >
+        class="first-line:text-cyan-500 first-letter:text-5xl first-letter:float-left first-letter:mr-1 group-hover:text-white selection:bg-amber-300 selection:text-black dark:group-hover:text-slate-400">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus
         deleniti iste iure architecto tempore amet accusamus sed officiis ipsam
         nihil officia, accusantium velit aliquid recusandae, animi dolore
@@ -122,22 +118,22 @@
       </div>
     </div>
     <hr class="my-10 dark:text-slate-500">
-    <div class="container mx-auto columns-xs gap-3 p-10 bg-slate-200 border border-slate-300 rounded-2xl shadow-md dark:bg-slate-600">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md h-48 w-96 object-cover object-bottom-left">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-video">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md">
-      <img src="public/assets/random.jpg" alt="random" class="mb-3 rounded-md shadow-md aspect-square">
+    <div class="container mx-auto columns-xs gap-5 p-10 bg-slate-200 border border-slate-300 rounded-2xl shadow-md dark:bg-slate-600">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md aspect-square hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md aspect-video hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md aspect-square hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md h-48 w-96 object-cover object-bottom-left hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md aspect-video hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md aspect-video hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md aspect-video hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md hover:scale-105 transition">
+      <img src="public/assets/random.jpg" alt="random" class="mb-5 rounded-md shadow-md aspect-square hover:scale-105 transition">
     </div>
     <hr class="my-10 dark:text-slate-500">
     <div class="text-center">
