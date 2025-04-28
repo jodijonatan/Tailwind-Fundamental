@@ -227,14 +227,8 @@
   .-top-3 {
     top: calc(var(--spacing) * -3);
   }
-  .-top-13 {
-    top: calc(var(--spacing) * -13);
-  }
   .top-0 {
     top: calc(var(--spacing) * 0);
-  }
-  .left-1 {
-    left: calc(var(--spacing) * 1);
   }
   .left-1\/2 {
     left: calc(1/2 * 100%);
@@ -326,9 +320,6 @@
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
   }
-  .mb-3 {
-    margin-bottom: calc(var(--spacing) * 3);
-  }
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
   }
@@ -343,9 +334,6 @@
   }
   .inline-block {
     display: inline-block;
-  }
-  .table {
-    display: table;
   }
   .aspect-square {
     aspect-ratio: 1 / 1;
@@ -412,15 +400,8 @@
   .max-w-lg {
     max-width: var(--container-lg);
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .origin-bottom-right {
     transform-origin: bottom right;
-  }
-  .-translate-x-1 {
-    --tw-translate-x: calc(var(--spacing) * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
@@ -438,9 +419,6 @@
   .cursor-pointer {
     cursor: pointer;
   }
-  .resize {
-    resize: both;
-  }
   .columns-xs {
     columns: var(--container-xs);
   }
@@ -455,9 +433,6 @@
   }
   .justify-center {
     justify-content: center;
-  }
-  .gap-3 {
-    gap: calc(var(--spacing) * 3);
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
@@ -640,9 +615,6 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
-  .p-20 {
-    padding: calc(var(--spacing) * 20);
-  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -728,9 +700,6 @@
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -743,12 +712,6 @@
     --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .shadow-cyan-200 {
-    --tw-shadow-color: oklch(91.7% 0.08 205.041);
-    @supports (color: color-mix(in lab, red, red)) {
-      --tw-shadow-color: color-mix(in oklab, var(--color-cyan-200) var(--tw-shadow-alpha), transparent);
-    }
-  }
   .shadow-cyan-200\/50 {
     --tw-shadow-color: color-mix(in srgb, oklch(91.7% 0.08 205.041) 50%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -760,10 +723,6 @@
     @supports (color: color-mix(in lab, red, red)) {
       --tw-shadow-color: color-mix(in oklab, var(--color-slate-400) var(--tw-shadow-alpha), transparent);
     }
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter;
@@ -914,16 +873,6 @@
         --tw-scale-x: 125%;
         --tw-scale-y: 125%;
         --tw-scale-z: 125%;
-        scale: var(--tw-scale-x) var(--tw-scale-y);
-      }
-    }
-  }
-  .hover\:scale-150 {
-    &:hover {
-      @media (hover: hover) {
-        --tw-scale-x: 150%;
-        --tw-scale-y: 150%;
-        --tw-scale-z: 150%;
         scale: var(--tw-scale-x) var(--tw-scale-y);
       }
     }
@@ -1252,11 +1201,6 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
@@ -1276,6 +1220,11 @@
   syntax: "*";
   initial-value: "";
   inherits: false;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
 @keyframes bounce {
   0%, 100% {
@@ -1324,11 +1273,11 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
       --tw-content: "";
+      --tw-outline-style: solid;
     }
   }
 }
