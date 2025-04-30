@@ -152,8 +152,8 @@
       <p class="font-black inline bg-gradient-to-r from-indigo-500 via-blue-500 to-sky-500 bg-clip-text text-transparent box-decoration-clone group-hover:text-pink-500">COLD.JOO<br>Jodi Jonatan</p>
     </div>
     <hr class="my-10 dark:text-slate-500">
-    <div>
-      <div id="box" class="hover:text-sky-900 size-80 bg-sky-500 mx-auto cursor-pointer"></div>
+    <div class="group">
+      <div id="box" class="hover:text-sky-500 size-80 bg-sky-500 mx-auto cursor-pointer transition ease-out" onmouseover="cihuy()" onmouseout="lepasCihuy()"></div>
     </div>
     <hr class="my-10 dark:text-slate-500">
     <script src="main.js"></script>
