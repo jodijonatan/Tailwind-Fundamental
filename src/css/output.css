@@ -294,6 +294,9 @@
   .my-55 {
     margin-block: calc(var(--spacing) * 55);
   }
+  .-mt-2 {
+    margin-top: calc(var(--spacing) * -2);
+  }
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
   }
@@ -308,6 +311,9 @@
   }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
+  }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
   }
   .mt-25 {
     margin-top: calc(var(--spacing) * 25);
