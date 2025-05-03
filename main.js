@@ -18,13 +18,13 @@ box.appendChild(judul);
 
 function cihuy() {
   box.style.background = "linear-gradient(to right, #A62C2C, #E83F25)";
-  box.style.transform = "scale(1.1)";
-  alert("Hello, World!");
+  box.style.transition = "transform 1s";
+  box.style.transform = "scale(1.1) rotate(720deg)";
 }
 
 function lepasCihuy() {
   box.style.background = "linear-gradient(to right, #03A791, #81E7AF)";
-  box.style.transform = "scale(1)";
+  box.style.transform = "scale(1) rotate(0)";
 }
 
 box.addEventListener("mouseenter", cihuy);
