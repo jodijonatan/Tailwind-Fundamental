@@ -1004,32 +1004,37 @@
     }
   }
   .dark\:bg-black {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-color: var(--color-black);
     }
   }
   .dark\:bg-slate-500 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-color: var(--color-slate-500);
     }
   }
   .dark\:bg-slate-600 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-color: var(--color-slate-600);
     }
   }
   .dark\:bg-slate-700 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       background-color: var(--color-slate-700);
     }
   }
+  .dark\:bg-slate-800 {
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-slate-800);
+    }
+  }
   .dark\:text-slate-500 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       color: var(--color-slate-500);
     }
   }
   .dark\:group-hover\:text-slate-400 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       &:is(:where(.group):hover *) {
         @media (hover: hover) {
           color: var(--color-slate-400);
@@ -1038,7 +1043,7 @@
     }
   }
   .dark\:hover\:bg-slate-600 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       &:hover {
         @media (hover: hover) {
           background-color: var(--color-slate-600);
@@ -1047,7 +1052,7 @@
     }
   }
   .dark\:hover\:bg-slate-800 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       &:hover {
         @media (hover: hover) {
           background-color: var(--color-slate-800);
@@ -1056,7 +1061,7 @@
     }
   }
   .dark\:active\:bg-slate-900 {
-    &:where(.dark, .dark *) {
+    @media (prefers-color-scheme: dark) {
       &:active {
         background-color: var(--color-slate-900);
       }

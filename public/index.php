@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jodi Jonatan</title>
-    <link href="/src/css/output.css" rel="stylesheet" />
+    <link href="src/css/output.css" rel="stylesheet" />
   </head>
-  <body class="bg-linear-to-l from-[#9ACBD0] to-[#48A6A7]">
+  <body class="bg-linear-to-l from-[#9ACBD0] to-[#48A6A7] dark:bg-slate-800">
   <nav class="flex justify-between items-center p-4 bg-[#89A8B2] text-stone-800 shadow-md fixed top-0 w-full">
     <div class="font-black mx-15 bg-gradient-to-r from-[#23486A] to-[#3B6790] bg-clip-text text-transparent">JO DEV</div>
     <ul class="flex space-x-6 mx-15">
