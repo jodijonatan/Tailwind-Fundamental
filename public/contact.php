@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body class="bg-linear-to-l from-[#9ACBD0] to-[#48A6A7]">
-<nav class="flex justify-between items-center p-4 bg-[#89A8B2] text-stone-800 mt-5 fixed top-0 w-screen">
+<nav class="flex justify-between items-center p-4 bg-[#89A8B2] text-stone-800 fixed top-0 w-screen">
     <div class="font-bold mx-15 bg-gradient-to-r from-[#23486A] to-[#3B6790] bg-clip-text text-transparent">JO DEV</div>
     <ul class="flex space-x-6 mx-15">
       <li><a href="/public/index.php" class="hover:underline font-semibold">Home</a></li>
